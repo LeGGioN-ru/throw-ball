@@ -961,9 +961,10 @@ MonoBehaviour:
   _: 0
   previewObj:
     animatorParameterAttributeExamples:
-      animatorController: {fileID: 9100000, guid: 3a1cea91d6692bf40b069a1d3b66f1b5, type: 2}
+      animatorController: {fileID: 9100000, guid: 3a1cea91d6692bf40b069a1d3b66f1b5,
+        type: 2}
       animator: {fileID: 0}
-      paramName2: NewFloat
+      paramName2: <missing>
       paramName: <missing>
     asButtonAttributeExamples:
       selectableBoolean: 0
@@ -973,8 +974,8 @@ MonoBehaviour:
       myString: notSelected
       _: 0
     asRangeAttributeExamples:
-      positiveRange: {x: 0, y: 3.1415927}
-      negativeRange: {x: 5, y: 1}
+      positiveRange: {x: 4.099744, y: 4.099744}
+      negativeRange: {x: 10, y: 6}
     assetsOnlyAttributeExamples:
       gob1: {fileID: 0}
       gob2: {fileID: 0}
@@ -1111,8 +1112,8 @@ MonoBehaviour:
       vector3: {x: 0, y: 0, z: 0}
       minimum: 0
       maximum: 1
-      _float: 0
-      rangeComparison: 0
+      _float: 344
+      rangeComparison: 10
     messageBoxAttributeExamples:
       myBool1: 1
       amount1: 55
@@ -1134,7 +1135,7 @@ MonoBehaviour:
       icon: {fileID: 0}
     progressBarAttributeExamples:
       value1: 0.6
-      value2: 22
+      value2: 84
       value3: 2
       min: 1
       max: 3
@@ -1160,7 +1161,7 @@ MonoBehaviour:
       noRichText: We are <color=green><b>not</b></color> sad.
     sceneAttributeExamples:
       gameScene: 0
-      startScene: Assets/Custom Inspector/Demo/CI_DemoScene.unity
+      startScene: Assets/Scenes/Sample Scene.unity
       _: 0
     selfFillAttributeExamples:
       cam: {fileID: 0}
@@ -1274,7 +1275,7 @@ MonoBehaviour:
         columnAmount: 2
         rows:
         - elements:
-          - {fileID: 21300000, guid: 9ce84ff0fdeb13d4a83f077d075dd9a5, type: 3}
+          - {fileID: 0}
           - {fileID: 0}
         - elements:
           - {fileID: 0}
@@ -1296,7 +1297,7 @@ MonoBehaviour:
         - elements: 000000000000000000000000000000000000000000000000
     dynamicSliderExamples:
       sliderValue:
-        value: 5
+        value: 2.24
         min: 1
         max: 10
       value2:
@@ -1334,7 +1335,8 @@ MonoBehaviour:
         assetReference: {fileID: 0}
       path:
         path: Assets
-        assetReference: {fileID: 102900000, guid: 00000000000000001000000000000000, type: 3}
+        assetReference: {fileID: 102900000, guid: 00000000000000001000000000000000,
+          type: 3}
     lineGraphExamples:
       ak47_damage:
         _: 0
