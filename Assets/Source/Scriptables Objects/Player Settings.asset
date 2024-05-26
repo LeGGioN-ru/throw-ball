@@ -12,6 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea9d60acccb6e5e45862f97a8724aeeb, type: 3}
   m_Name: Player Settings
   m_EditorClassIdentifier: 
+  _throwTimeScaleSettings:
+    _slowThrowTimeScale: 0.05
+    _changeSpeedBoost: 3
+    _changeSpeedSlowdown: 5
   _minMaxThrowForce: {x: 0, y: 15}
   _maxRangeThrowLine: 2
-  _throwLineDrawSensitivity: 20
+  _throwLineDrawSensitivity: 0.015

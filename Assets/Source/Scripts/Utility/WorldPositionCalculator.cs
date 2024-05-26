@@ -18,4 +18,9 @@ public class WorldPositionCalculator
 
         return _camera.ScreenToWorldPoint(new Vector3(screenPosition.x, screenPosition.y, _camera.nearClipPlane));
     }
+
+    public Vector3 GetTapScreenPosition()
+    {
+        return _playerInput.Player.TabPosition.ReadValue<Vector2>();
+    }
 }

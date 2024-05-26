@@ -43,7 +43,7 @@ public class SwipeDirectionCalculator : IDirector, IInitializable, IDisposable
 
     private void OnHeld()
     {
-        _currentPosition = _worldPositionCalculator.GetTapWorldPosition();
+        _currentPosition = _worldPositionCalculator.GetTapScreenPosition();
 
         TryFixFirstTap();
     }
@@ -62,7 +62,7 @@ public class SwipeDirectionCalculator : IDirector, IInitializable, IDisposable
 
     private void OnStarted(InputAction.CallbackContext context)
     {
-        _startPosition = _worldPositionCalculator.GetTapWorldPosition();
+        _startPosition = _worldPositionCalculator.GetTapScreenPosition();
     }
 
     private void TryFixFirstTap()
