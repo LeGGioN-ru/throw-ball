@@ -2,7 +2,7 @@ using CustomInspector;
 using System;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "Player Settings", menuName = "Player/Settings/Create", order = 1)]
+[CreateAssetMenu(fileName = "Player Settings", menuName = "Game/Player/Settings/Create", order = 1)]
 public class PlayerSettings : ScriptableObject
 {
     [HorizontalLine("Throw Time Scale")]

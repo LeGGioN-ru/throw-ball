@@ -4,11 +4,18 @@ using UnityEngine;
 public abstract class Zone : MonoBehaviour
 {
     [SerializeField] protected Color Color;
+    [SerializeField] private bool _needShow;
 
     protected abstract Collider[] GetColliders();
 
     protected virtual void OnDrawGizmos()
     {
+        if (_needShow == false)
+        {
+            Gizmos.color = new Color(0, 0, 0, 0);
+            return;
+        }
+
         Gizmos.color = Color;
     }
 
